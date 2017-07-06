@@ -19,6 +19,7 @@ class NetworkUtils {
 
     private final static String API_KEY_QUERY = "api_key";
 
+    // from: https://stackoverflow.com/questions/4238921/detect-whether-there-is-an-internet-connection-available-on-android
     public static boolean isOnline(Context c) {
         ConnectivityManager cm = (ConnectivityManager) c.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
