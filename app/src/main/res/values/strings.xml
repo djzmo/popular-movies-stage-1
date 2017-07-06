@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PopularMoviesStage1</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="error_message">An error has occurred</string>
+    <string name="pop_movies">Pop Movies</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="please_supply_id">Please supply an ID</string>
+    <string name="mark_as_favorite">Mark as Favorite</string>
+    <string name="dummy_text">Dummy Text</string>
+    <string name="thumbnail_image">Thumbnail Image</string>
+    <string name="runtime_formatted">%smin</string>
+    <string name="rating_formatted">%s/10</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="api_key_not_set">Your API key is not yet set</string>
+    <string name="try_again">Try again</string>
+    <string name="sort">Sort</string>
+</resources>
