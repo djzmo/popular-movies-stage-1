@@ -51,7 +51,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         public MovieViewHolder(Context c, View itemView) {
             super(itemView);
             mParentContext = c;
-            mThumbnail = itemView.findViewById(R.id.iv_movie_thumbnail);
+            mThumbnail = (ImageView) itemView.findViewById(R.id.iv_movie_thumbnail);
             itemView.setOnClickListener(this);
         }
 
